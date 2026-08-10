@@ -1,0 +1,11 @@
+asset,component,threat,attack_path,likelihood,impact,owasp_mapping,candidate_control,evidence,risk_score,risk_level
+User Prompt,Chat Interface,Direct prompt injection,User enters conflicting instructions through normal chat,5,4,Prompt Injection,Input scoping + injection filtering + regression tests,Prompt test report,20,Critical
+Retrieved Content,Knowledge Base,Indirect prompt injection,Poisoned document contains malicious model instructions,4,4,Prompt Injection,Source controls + sanitization + instruction/data separation,Poisoned-document test,16,High
+Customer Data,CRM Context,Sensitive-data disclosure,Model receives more customer data than required,3,5,Sensitive Information Disclosure,Authorization + data minimization + output inspection,Authorization and disclosure tests,15,High
+LLM Output,Response Handler,Unsafe downstream handling,Generated output is trusted or executed without validation,3,5,Insecure Output Handling,Output validation + encoding + no blind execution,Output validation test,15,High
+Tool Permission,Agent Tool Layer,Excessive agency,Model can invoke actions beyond business need,3,5,Excessive Agency,Least privilege + allow-list + approval gate,Tool-permission test,15,High
+Logs,Observability,Sensitive information in logs,Prompts or outputs store PII without redaction,3,4,Sensitive Information Disclosure,Redaction + restricted access,Log review,12,High
+Knowledge Base,Document Ingestion,Data poisoning,Untrusted source changes support guidance,3,4,Data & Model Poisoning,Trusted-source policy + ingestion checks,Ingestion test,12,High
+API Key,Application Runtime,Secret exposure,Credential is stored in source code or notebook,2,5,Supply Chain / Secrets,Environment variables + secret manager,Secret scan,10,Medium
+External API,Integration Layer,Unauthorized action,Model-generated parameters trigger unwanted operation,2,5,Excessive Agency,Schema validation + action approval,Integration test,10,Medium
+System Prompt,Prompt Layer,Prompt leakage,User asks model to reveal hidden instructions,3,3,Sensitive Information Disclosure,Minimize sensitive prompt content + refusal behavior,Prompt leakage test report,9,Medium
