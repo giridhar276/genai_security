@@ -1,0 +1,11 @@
+customer_id,order_id,product_category,order_value_inr,payment_method,delivery_status,customer_tier,email,phone,support_note
+CUST-5001,ORD-25001,Electronics,68999.0,Credit Card,Out for Delivery,Platinum,ananya.rao@example.test,9000000001,Delivery expected today; customer requested SMS update
+CUST-5002,ORD-25002,Electronics,52999.0,UPI,Delivered,Gold,rohit.mehta@example.test,9000000002,Laptop screen reported damaged on arrival
+CUST-5003,ORD-25003,Home Appliances,18999.0,Debit Card,Refund Initiated,Silver,neha.iyer@example.test,9000000003,Refund approved after damaged-item return
+CUST-5004,ORD-25004,Fashion,3499.0,UPI,Delivered,Gold,arjun.shah@example.test,9000000004,Size exchange requested
+CUST-5005,ORD-25005,Mobile Accessories,2499.0,Wallet,In Transit,Silver,meera.nair@example.test,9000000005,Customer asked for delivery ETA
+CUST-5006,ORD-25006,Electronics,7999.0,Credit Card,Delivered,Platinum,vikram.sen@example.test,9000000006,Headphones replacement approved
+CUST-5007,ORD-25007,Books,1299.0,UPI,Delivered,Silver,isha.kapoor@example.test,9000000007,No issue; routine support contact
+CUST-5008,ORD-25008,Home Appliances,45999.0,Net Banking,Return Requested,Gold,rahul.verma@example.test,9000000008,Return pickup scheduled
+CUST-5009,ORD-25009,Beauty,2199.0,Wallet,Delivered,Silver,kavya.reddy@example.test,9000000009,Wrong item received
+CUST-5010,ORD-25010,Electronics,119999.0,Credit Card,Delivered,Platinum,sanjay.naidu@example.test,9000000010,Premium customer; escalation requested for service delay
