@@ -1,0 +1,15 @@
+pandas
+openai
+python-dotenv
+presidio-analyzer
+presidio-anonymizer
+spacy
+jsonschema
+guardrails-ai
+bleach
+transformers
+torch
+accelerate
+nemoguardrails
+matplotlib
+jupyter
