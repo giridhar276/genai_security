@@ -1,0 +1,2 @@
+system,business_owner,technical_owner,agreement,fairness_ratio,fairness_status,human_final_decision,audit_findings,management_decision
+AI Loan Recommendation Assistant,Lending Operations,AI Engineering,0.8,0.813,PASS,True,2,IMPROVEMENT_REQUIRED

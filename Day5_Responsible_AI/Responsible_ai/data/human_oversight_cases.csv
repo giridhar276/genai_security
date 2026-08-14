@@ -1,0 +1,11 @@
+case_id,use_case,proposed_action,confidence,impact,human_review_required
+CASE001,Loan recommendation,Approve loan,0.93,High,True
+CASE002,Support summary,Summarize ticket,0.98,Low,False
+CASE003,Refund request,Refund $40,0.91,Medium,False
+CASE004,Refund request,Refund $1200,0.89,High,True
+CASE005,Account access,Reset password,0.95,High,True
+CASE006,FAQ answer,Return policy,0.99,Low,False
+CASE007,Hiring screen,Reject candidate,0.84,High,True
+CASE008,Content moderation,Block unsafe post,0.96,Medium,False
+CASE009,Medical assistant,Recommend treatment,0.76,High,True
+CASE010,Marketing,Generate product copy,0.97,Low,False

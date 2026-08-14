@@ -1,0 +1,8 @@
+risk_id,risk,possible_harm,domain,impact,likelihood,risk_score,priority
+R01,Unfair recommendations,Different groups may receive materially different recommendation rates,Fairness,5,3,15,HIGH
+R02,Protected attribute influence,Gender or similar attributes could influence decisions,Fairness,5,2,10,MEDIUM
+R03,Incorrect recommendation,LLM could recommend a decision inconsistent with the expected financial pattern,Reliability,4,3,12,MEDIUM
+R04,Poor explanation,The model may provide unclear or inappropriate reasoning,Transparency,3,3,9,MEDIUM
+R05,Hallucinated lending policy,The model may invent criteria that are not approved,Reliability,4,3,12,MEDIUM
+R06,Excessive automation,AI recommendation may be treated as a final decision,Human Oversight,5,2,10,MEDIUM
+R07,Sensitive data misuse,Unnecessary customer data may be exposed to the model,Privacy,4,2,8,MEDIUM

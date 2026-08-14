@@ -1,0 +1,11 @@
+control_id,control,domain,control_type,evidence
+C01,Document AI purpose and scope,Governance,Preventive,Owner + system card
+C02,Perform bias assessment,Fairness,Detective,Bias metrics
+C03,Protect personal data,Privacy,Preventive,PII controls
+C04,Validate output grounding,Reliability,Detective,Groundedness checks
+C05,Human approval for high-impact action,Oversight,Preventive,Approval log
+C06,Maintain audit trail,Governance,Detective,Immutable evidence
+C07,Monitor production behavior,Operations,Detective,Alerts + dashboards
+C08,Restrict external tools,Security,Preventive,Tool allow-list
+C09,Review model changes,Change,Preventive,Change approval
+C10,Document residual risk,Risk,Corrective,Risk acceptance

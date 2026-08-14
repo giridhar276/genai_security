@@ -1,0 +1,8 @@
+audit_item,evidence,result
+AIMS scope documented,True,PASS
+AI policy and owners defined,True,PASS
+Risks identified,True,PASS
+Fairness measured,True,PASS
+Human oversight enabled,True,PASS
+Security testing completed,False,FINDING
+Production monitoring implemented,False,FINDING

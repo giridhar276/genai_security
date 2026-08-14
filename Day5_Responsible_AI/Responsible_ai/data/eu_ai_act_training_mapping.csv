@@ -1,0 +1,6 @@
+name,purpose,impact,affects_rights,human_review,training_classification
+FAQ chatbot,Customer FAQ,Low,False,False,LIMITED_OR_LOWER_RISK_REVIEW
+Loan decision support,Credit recommendation,High,True,True,HIGH_RISK_REVIEW
+Hiring screener,Candidate ranking,High,True,True,HIGH_RISK_REVIEW
+Marketing text generator,Product copy,Low,False,False,LIMITED_OR_LOWER_RISK_REVIEW
+Medical recommendation assistant,Treatment support,High,True,True,HIGH_RISK_REVIEW

@@ -1,0 +1,11 @@
+control_id,control,iso_theme,evidence,evidence_present
+C01,Document AI purpose and scope,Governance,Owner + system card,True
+C02,Perform bias assessment,Lifecycle Controls,Bias metrics,True
+C03,Protect personal data,Lifecycle Controls,PII controls,True
+C04,Validate output grounding,Evidence,Groundedness checks,True
+C05,Human approval for high-impact action,Lifecycle Controls,Approval log,False
+C06,Maintain audit trail,Governance,Immutable evidence,True
+C07,Monitor production behavior,Monitoring,Alerts + dashboards,False
+C08,Restrict external tools,Lifecycle Controls,Tool allow-list,True
+C09,Review model changes,Governance,Change approval,True
+C10,Document residual risk,Risk Management,Risk acceptance,False

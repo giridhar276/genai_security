@@ -1,0 +1,3 @@
+finding,corrective_action,owner,status
+Security testing incomplete,"Perform prompt injection, misuse, and data leakage testing",Security Team,OPEN
+Production monitoring missing,"Create monitoring for failures, drift, misuse, and incidents",AI Engineering,OPEN

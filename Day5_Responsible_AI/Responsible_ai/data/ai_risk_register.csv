@@ -1,0 +1,11 @@
+risk_id,risk_name,impact,likelihood,rating,control,domain
+R01,Prompt Injection,4,4,High,Input validation + tool allow-list,Security
+R02,Sensitive Data Leakage,5,4,Critical,PII redaction + DLP,Privacy
+R03,Hallucination,4,3,High,Grounding + source checks,Reliability
+R04,Bias,4,3,High,Bias testing + human review,Fairness
+R05,Unsafe Content,4,4,High,Content filters + moderation,Safety
+R06,Excessive Agency,5,4,Critical,Approval gates + least privilege,Security
+R07,Poor Explainability,3,3,Medium,System card + rationale,Transparency
+R08,Model Drift,3,3,Medium,Monitoring + periodic evaluation,Operations
+R09,Weak Auditability,4,3,High,Structured logs + evidence retention,Governance
+R10,Third-Party Dependency,4,3,High,Vendor assessment + fallback,Supply Chain
